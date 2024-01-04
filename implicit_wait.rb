@@ -18,18 +18,9 @@ driver.start_driver
 
 # ******************************************************
 # Add Implicit Wait
-# driver.manage.timeouts.implicit_wait = 10 # 10 seconds
+driver.manage.timeouts.implicit_wait = 10 # 10 seconds
 # ******************************************************
 
 # Perform actions on the app
 driver.find_element(name: 'General').click
-
-# **********************************************************
-# Add Explicit Wait
-# wait = Selenium::WebDriver::Wait.new(timeout: 10)
-# element = wait.until { driver.find_element(name: 'About') }
-# element.click
-# **********************************************************
-element = driver.find_element(name: 'About')
-
-element.click
+driver.find_element(name: 'About').click
