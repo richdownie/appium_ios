@@ -22,9 +22,11 @@ driver.find_element(name: 'General').click
 # **********************************************************
 # Add Explicit Wait
 puts 'Begin Explicit Wait'
+start_time = Time.now
 wait = Selenium::WebDriver::Wait.new(timeout: 10)
 element = wait.until { driver.find_element(name: 'About') }
-puts 'Explicit Wait Complete'
+end_time = Time.now - start_time
+puts "Explicit Wait Completed in #{end_time} seconds"
 element.click
 # **********************************************************
 driver.find_element(name: 'About').click
