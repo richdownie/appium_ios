@@ -4,4 +4,4 @@
 4. [Appium: Implicit Wait](https://richdownie.medium.com/appium-implicit-wait-b6727333ada5)
 4. [Appium: Explicit Wait](https://richdownie.medium.com/appium-explicit-waits-b96106cbd92a)
 5. [Appium: iPad Safari Browser Test](https://richdownie.medium.com/appium-ipad-safari-browser-test-3e6ef21b1b0d)
-5. [Appium: iPhone Safari Browser Test](https://richdownie.medium.com/appium-iphone-safari-browser-test-3e6ef21b1b0d)
+5. [Appium: iPhone Safari Browser Test](https://richdownie.medium.com/appium-iphone-safari-browser-test-c361b8d45a23)
