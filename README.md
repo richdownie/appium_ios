@@ -12,3 +12,5 @@
 >```ruby ipad_browser.rb```
 5. [Appium: iPhone Safari Browser Test](https://richdownie.medium.com/appium-iphone-safari-browser-test-c361b8d45a23)
 > ```ruby iphone_browser.rb```
+6. [Appium: Use iOS Keyboard](https://richdownie.medium.com/appium-use-ios-keyboard-%EF%B8%8F-cdd77d066cbd)
+> ```ruby use_keyboard.rb```
