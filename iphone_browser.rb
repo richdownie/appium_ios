@@ -6,7 +6,7 @@ require 'appium_lib'
 caps = {
   platformName: 'iOS',
   platformVersion: '17.2',
-  deviceName: 'iPhone 15 Pro',
+  deviceName: 'iPhone 15 Pro Max',
   automationName: 'XCUITest',
   browserName: 'Safari'
 }

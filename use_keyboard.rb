@@ -4,10 +4,10 @@ require 'appium_lib'
 
 # Set your desired capabilities
 caps = {
-  "platformName": 'iOS',
-  "appium:platformVersion": '17.2',
+  platformName: 'iOS',
+  platformVersion: '17.2',
   deviceName: 'iPad (10th generation)',
-  "appium:automationName": 'XCUITest',
+  automationName: 'XCUITest',
   "appium:app": 'com.apple.Preferences'
 }
 

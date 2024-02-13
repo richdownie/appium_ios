@@ -4,10 +4,10 @@ require 'appium_lib'
 
 # Set your desired capabilities
 caps = {
-  "platformName": 'iOS',
-  "appium:platformVersion": '17.2',
-  "appium:deviceName": 'iPhone 15 Pro Max',
-  "appium:automationName": 'XCUITest',
+  platformName: 'iOS',
+  platformVersion: '17.2',
+  deviceName: 'iPhone 15 Pro Max',
+  automationName: 'XCUITest',
   "appium:app": 'com.apple.Preferences'
 }
 # Instantiate a new Appium Driver
