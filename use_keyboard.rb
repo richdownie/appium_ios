@@ -8,7 +8,7 @@ caps = {
   platformVersion: '17.2',
   deviceName: 'iPad (10th generation)',
   automationName: 'XCUITest',
-  "appium:app": 'com.apple.Preferences'
+  'appium:app': 'com.apple.Preferences'
 }
 
 # Instantiate a new Appium Driver

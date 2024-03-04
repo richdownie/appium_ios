@@ -8,7 +8,7 @@ caps = {
   platformVersion: '17.2',
   deviceName: 'iPhone 15 Pro Max',
   automationName: 'XCUITest',
-  "appium:app": 'com.apple.Preferences'
+  'appium:app': 'com.apple.Preferences'
 }
 
 SERVER_URL = 'http://localhost:4723'
