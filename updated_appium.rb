@@ -28,7 +28,7 @@ driver.execute_script('mobile: tap', x: x_coordinate, y: y_coordinate)
 
 driver.execute_script('mobile: doubleTap', x: x_coordinate, y: y_coordinate)
 
-driver.execute_script("mobile: scroll", { "direction" => "down"})
+driver.execute_script('mobile: scroll', { direction: 'down' })
 
 driver.execute_script('mobile: doubleTap')
 
