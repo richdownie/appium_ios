@@ -14,3 +14,5 @@
 > ```ruby iphone_browser.rb```
 6. [Appium: Use iOS Keyboard](https://richdownie.medium.com/appium-use-ios-keyboard-%EF%B8%8F-cdd77d066cbd)
 > ```ruby use_keyboard.rb```
+7. [Appium: Save Screenshot](https://medium.com/@richdownie/appium-save-screenshot-8d659a05d013)
+> ```ruby save_screenshot.rb```
