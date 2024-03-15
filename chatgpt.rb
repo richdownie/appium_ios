@@ -50,5 +50,5 @@ rescue => e
                            }.to_json)
 
   # Print response
-  puts device_name = "** ChatGPT suggests: ** \n #{response["choices"].first["message"]["content"]}".green
+  puts "** ChatGPT suggests: ** \n #{response["choices"].first["message"]["content"]}".green
 end
