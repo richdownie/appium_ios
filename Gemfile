@@ -3,7 +3,7 @@
 source 'https://rubygems.org'
 
 gem 'appium_lib'
-gem 'rubocop'
-gem 'httparty'
-gem 'dotenv'
 gem 'colorize'
+gem 'dotenv'
+gem 'httparty'
+gem 'rubocop'
