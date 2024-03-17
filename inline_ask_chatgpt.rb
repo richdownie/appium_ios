@@ -22,8 +22,9 @@ driver = Appium::Driver.new({ caps:, appium_lib: { server_url: 'http://127.0.0.1
 # Perform actions in the app
 driver.find_element(name: 'General').click
 driver.find_element(name: 'Keyboard').click
-driver.find_element(id: '2').click
-driver.find_element(:accessibility_id, 'AddNewKeyboard').click
+sleep 3
+driver.find_element(:accessibility_id, 'Keyboards').click
+# driver.find_element(:accessibility_id, 'AddNewKeyboard').click
 
 if ENV['CHAT']
   # Your ChatGPT API token
