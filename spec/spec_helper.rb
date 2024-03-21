@@ -21,7 +21,12 @@ RSpec.configure do |config|
     'appium:app': 'com.apple.Preferences'
   }
   config.before(:each) do
-    @driver = Appium::Driver.new({ caps:, appium_lib: { server_url: 'http://127.0.0.1:4723/' } })
-    @driver.start_driver
+    @driver = Appium::Driver.new({ caps:, appium_lib: { server_url: 'http://127.0.0.1:4723/' } }).start_driver
+  end
+
+  config.after(:each) do |example|
+    if example.exception
+      # binding.pry
+    end
   end
 end

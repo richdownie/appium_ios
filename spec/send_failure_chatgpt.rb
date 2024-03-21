@@ -2,6 +2,6 @@
 
 RSpec.describe 'ChatGPT' do
   it 'Send failure for an automated resolution' do
-    @driver.find_element(id: 'General').click
+    @driver.find_element(id: 'Genxeral').click
   end
 end
