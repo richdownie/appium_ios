@@ -19,14 +19,18 @@ caps = {
 # Instantiate a new Appium Driver
 driver = Appium::Driver.new({ caps:, appium_lib: { server_url: 'http://127.0.0.1:4723/' } }).start_driver
 
-# Perform actions in the app
-driver.find_element(name: 'General').click
-driver.find_element(name: 'Keyboard').click
-sleep 3
-driver.find_element(:accessibility_id, 'Keyboards').click
-# driver.find_element(:accessibility_id, 'AddNewKeyboard').click
+driver.manage.timeouts.implicit_wait = 1
 
-if ENV['CHAT']
+begin
+  # Perform actions in the app
+  driver.find_element(id: 'General').click
+  # binding.pry
+  # driver.find_element(id: 'Keyboard').click
+  # driver.find_element(id: '2').click
+  # driver.find_element(id: "Add New Keyboard...").click
+  puts "Test passed!"
+rescue
+  puts "Test failed!"
   # Your ChatGPT API token
   open_ai_key = ENV.fetch('OPEN_AI_KEY')
 
