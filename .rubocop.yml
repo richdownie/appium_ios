@@ -2,3 +2,6 @@ require: rubocop-rspec
 
 AllCops:
   NewCops: enable
+
+RSpec/ExampleLength:
+  Max: 40

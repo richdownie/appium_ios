@@ -13,9 +13,14 @@ RSpec.describe 'ChatGPT' do
 
   it 'ask for accessibility id locator' do
     # Perform actions in the app
-    driver.find_element(id: 'General').click
-    driver.find_element(id: 'Keyboard').click
-    driver.find_element(id: '2').click
-    expect(driver.find_element(id: 'Cancel').displayed?).to be true
+    begin
+      driver.find_element(id: 'General').click
+      driver.find_element(id: 'Keyboard').click
+      driver.find_element(id: '2').click
+      driver.find_element(id: "Add New Keyboard...").click
+      expect(driver.find_element(id: 'Add New Keyboard').displayed?).to be true
+    rescue
+      ChatGPTHelper.new.ask(driver.page_source)
+    end
   end
 end

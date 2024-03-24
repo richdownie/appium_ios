@@ -26,7 +26,7 @@ begin
   driver.find_element(id: 'General').click
   driver.find_element(id: 'Keyboard').click
   driver.find_element(id: '2').click
-  # driver.find_element(id: "Add New Keyboard...").click
+  # driver.find_element(id: 'Add New Keyboard...').click
   puts 'Test passed!'
 rescue StandardError
   puts 'Test failed!'
