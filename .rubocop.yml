@@ -1,0 +1,7 @@
+require: rubocop-rspec
+
+Style/GlobalVars:
+  Department: Enabled
+
+AllCops:
+  NewCops: enable

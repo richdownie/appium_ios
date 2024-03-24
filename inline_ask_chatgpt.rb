@@ -24,9 +24,8 @@ driver.manage.timeouts.implicit_wait = 1
 begin
   # Perform actions in the app
   driver.find_element(id: 'General').click
-  # binding.pry
-  # driver.find_element(id: 'Keyboard').click
-  # driver.find_element(id: '2').click
+  driver.find_element(id: 'Keyboard').click
+  driver.find_element(id: '2').click
   # driver.find_element(id: "Add New Keyboard...").click
   puts 'Test passed!'
 rescue StandardError
@@ -50,11 +49,11 @@ rescue StandardError
                              'Authorization' => "Bearer #{open_ai_key}"
                            },
                            body: {
-                             "model": 'gpt-4-turbo-preview',
-                             "messages": [
+                             model: 'gpt-4-turbo-preview',
+                             messages: [
                                {
-                                 "role": 'user',
-                                 "content": "#{user_input} with appium ruby #{driver.page_source}"
+                                 role: 'user',
+                                 content: "#{user_input} with appium ruby #{driver.page_source}"
                                }
                              ]
                            }.to_json)

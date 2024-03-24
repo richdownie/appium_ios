@@ -27,6 +27,4 @@ driver.find_element(name: 'About').click
 recording = driver.driver.stop_recording_screen
 
 # Save recording to a file
-File.open('video.mp4', 'wb') do |file|
-  file.write(Base64.decode64(recording))
-end
+File.binwrite('video.mp4', Base64.decode64(recording))

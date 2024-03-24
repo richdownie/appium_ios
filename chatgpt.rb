@@ -39,11 +39,11 @@ rescue StandardError => e
                              'Authorization' => "Bearer #{open_ai_key}"
                            },
                            body: {
-                             "model": 'gpt-4-turbo-preview',
-                             "messages": [
+                             model: 'gpt-4-turbo-preview',
+                             messages: [
                                {
-                                 "role": 'user',
-                                 "content": "What are some fixes in ruby for the following error? #{e.message}"
+                                 role: 'user',
+                                 content: "What are some fixes in ruby for the following error? #{e.message}"
                                }
                              ]
                            }.to_json)
