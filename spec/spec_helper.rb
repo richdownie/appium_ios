@@ -7,8 +7,6 @@ require 'rspec'
 require 'pry'
 require 'appium_lib'
 
-require_relative 'chatgpt_helper'
-
 # MOBILE
 RSpec.configure do |config|
   # Load .env file
