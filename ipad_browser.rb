@@ -5,16 +5,13 @@ require 'appium_lib'
 # Set your desired capabilities
 caps = {
   platformName: 'iOS',
-  platformVersion: '17.2',
+  platformVersion: '17.4',
   deviceName: 'iPad (10th generation)',
   automationName: 'XCUITest',
   browserName: 'Safari'
 }
-# Instantiate a new Appium Driver
-driver = Appium::Driver.new(caps:, appium_lib: { server_url: 'http://127.0.0.1:4723/' })
-
-# Start the Appium Driver
-driver.start_driver
+# Instantiate and start a new Appium Driver
+driver = Appium::Driver.new(caps:, appium_lib: { server_url: 'http://127.0.0.1:4723/' }).start_driver
 
 # Add Implicit Wait
 driver.manage.timeouts.implicit_wait = 1 # Wait up to 1 second between the below commands

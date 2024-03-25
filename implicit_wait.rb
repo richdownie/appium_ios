@@ -5,7 +5,7 @@ require 'appium_lib'
 # Set your desired capabilities
 caps = {
   platformName: 'iOS',
-  platformVersion: '17.2',
+  platformVersion: '17.4',
   deviceName: 'iPhone 15 Pro Max',
   automationName: 'XCUITest',
   'appium:app': 'com.apple.Preferences'
