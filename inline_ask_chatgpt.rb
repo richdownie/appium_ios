@@ -27,9 +27,9 @@ begin
   driver.find_element(id: 'Keyboard').click
   driver.find_element(id: '2').click
   # driver.find_element(id: 'Add New Keyboard...').click
-  puts 'Test passed!'
+  puts 'Test passed.'
 rescue StandardError
-  puts 'Test failed!'
+  puts 'Test failed.'
   # Your ChatGPT API token
   open_ai_key = ENV.fetch('OPEN_AI_KEY')
 
