@@ -18,7 +18,7 @@
 > ```ruby save_screenshot.rb```
 8. [Appium: Automated Debugging with ChatGP](https://richdownie.medium.com/appium-debugging-with-chatgp-e1df8415e0f8)
 > ```ruby chatgpt.rb```
-9. [Appium: Ask ChatGPT to provide Accessibility IDs](https://medium.com/@richdownie/appium-ask-chatgpt-to-provide-accessibility-ids-d5d1d524d4d9)
-> ```ruby inline_ask_chatgpt.rb```
 10. [Appium: Ask ChatGPT to provide Accessibility IDs](https://medium.com/@richdownie/appium-ask-chatgpt-to-provide-accessibility-ids-d5d1d524d4d9)
 > ```ruby inline_ask_chatgpt.rb```
+11. [Appium: RSpec](https://richdownie.medium.com/appium-rspec-5f959fe48df0)
+> ```rspec spec/keyboards_spec.rb```
