@@ -20,3 +20,5 @@
 > ```ruby chatgpt.rb```
 9. [Appium: Ask ChatGPT to provide Accessibility IDs](https://medium.com/@richdownie/appium-ask-chatgpt-to-provide-accessibility-ids-d5d1d524d4d9)
 > ```ruby inline_ask_chatgpt.rb```
+10. [Appium: Ask ChatGPT to provide Accessibility IDs](https://medium.com/@richdownie/appium-ask-chatgpt-to-provide-accessibility-ids-d5d1d524d4d9)
+> ```ruby inline_ask_chatgpt.rb```
